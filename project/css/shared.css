@@ -17,7 +17,8 @@ body {
 }
 
 
-footer, nav {
+footer, 
+nav {
     display: block;
 }
 
@@ -128,6 +129,7 @@ section {
     top: 0;
     left: 0;
     text-align: center;
+    
 }
 
 .menu-container {
@@ -141,7 +143,7 @@ section {
 }
 
 #home {
-    background: url("../images/gagarin-background.jpg");
+    background: url("../images/gagarin-background.jpg") no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -162,12 +164,15 @@ section {
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
-    text-align: left;
+    text-align: center;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
     border: 5px double #fff;
-    padding: 10px;
+    padding: 10;
+    margin-left: 33%;
+    
+ 
 
 }
 
@@ -176,6 +181,8 @@ section {
     font-weight: 500;
     padding: 50px 20px 10px 20px;
     text-transform: uppercase;
+
+ 
 }
 
 .head-last {
@@ -238,8 +245,9 @@ section {
 
 .reservation p {
     color: #13161B;
-    width: 50%;
+    /* width: 50%; */
     margin: 0 auto;
+    text-align: center;
 }
 
 .reservation form {
@@ -254,11 +262,11 @@ section {
     border-radius: 7px;
     background: rgb(227, 222, 222);
     box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.3);
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 
-.reservation input [type="text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -273,11 +281,11 @@ section {
     border-radius: 7px;
     background: #13161B;
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 
-.reservation input [type="text"]:hover {
+.reservation input[type="text"]:hover {
     box-shadow: 0 0 18px rgba(100, 65, 0, .8);
 
 }
@@ -287,13 +295,13 @@ section {
 }
 
 .terms {
-    margin: 30px 1px 0 0;
+    margin: 45px 1px 0 0;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
     color: #000;
     cursor: pointer;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     position: relative;
     display: inline;
@@ -307,26 +315,26 @@ section {
 
 }
 
-.submit input [type="submit"] {
+.submit input[type="submit"] {
     color: rgb(225, 225, 255);
     cursor: pointer;
     border: none;
     font-weight: 900;
     outline: none;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0px 3%;
     padding: 7px 0px;
     width: 25%;
     font-size: 18px;
-    transition: border 0.3s color 0.3s background 0.3s;
+    transition: border-color 0.3s ease-out color 0.3s ease-out background-color 0.3s ease-out;
     border-radius: 7px;
     background-color: #797a7b;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3)
     
 }
 
-.submit input [type="submit"]:hover {
+.submit input[type="submit"]:hover {
     color: #000;
     background-color: #8D8E8F;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);

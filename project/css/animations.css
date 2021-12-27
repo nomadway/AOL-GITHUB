@@ -1,7 +1,7 @@
 
 /* MENU SECTION ANIMATION */
 
-.menue {
+.menu {
     color: #f00;
     font: bold 12px/18px sans-serif;
     text-align: center;
@@ -39,6 +39,7 @@
 /* GALLERY SECTION ANIMAITON */
 
 .photo {
+ 
     position: relative;
     line-height: 0;
     margin-bottom: 2em;
@@ -48,20 +49,28 @@
     border: 1px solid #021a40;
     background-color: #ff0;
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
-    
+  
+ 
 }
 
 .photo-container {
+    display: flex;
+    flex: 33.33%;
     text-align: center;
-    margin: 15px auto;
+    margin: 10px auto;
     width: 300px;
     height: 169px;
+    justify-content: center;
+  
+
+
 }
 
 .photo-container img {
     max-width: 100%;
-    width: 300px;
-    height: 169px;
+    width: 330px;
+    height: 190px;
+   
 }
 
 .photo-overlay {
